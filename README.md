@@ -1,56 +1,157 @@
-╔════════════════════════════════════════════════════════════════╗
-║     WEB TECHNOLOGY (MDM) CODES - COMPLETE PACKAGE (Q1-Q31)     ║
-╚════════════════════════════════════════════════════════════════╝
+# 📦 Web Technology (MDM) Codes – Complete Package (Q1–Q31)
 
-[JAVASCRIPT & DOM]
-  Q1  → DOM Paragraph Manipulation (change text, color, font)
-  Q2  → Factorial Calculator Function
-  Q6  → AJAX Load Data (XMLHttpRequest)
-  Q7  → Add Paragraph using DOM methods
-  Q15 → Background Color Change on Button Click
-  Q17 → AJAX Content Update Without Refresh
-  Q19 → Advanced DOM Operations
-  Q27 → Advanced JavaScript (Arrays, Strings, Objects)
+A complete collection of **Web Technology practical programs** covering **HTML, CSS, JavaScript, jQuery, AJAX, and Data Formats**.
+This repository is structured for **students, beginners, and quick revision before exams**.
 
-[HTML & FORMS]
-  Q4  → Profile Page (image, link, hobbies list)
-  Q12 → Weekly Time Table (table with headers)
-  Q16 → Feedback Form (email, name, rating, suggestion)
-  Q20 → College Events Page (fonts, colors, links, events list)
-  Q21 → Student Registration Form (complete form with all inputs)
-  Q22 → HTML5 Audio Player (with controls)
-  Q23 → Different List Types (ordered, unordered, nested)
-  Q26 → HTML5 Video Player (with controls)
+---
 
-[CSS & STYLING]
-  Q8  → CSS Inheritance & Cascading Rules
-  Q9  → CSS Properties (border, background-color, text-color)
-  Q10 → Navigation Bar with Hover Effects
-  Q11 → Border Styles (solid, dashed, dotted) with Shadow
-  Q13 → CSS Text Transform (uppercase, lowercase, capitalize)
-  Q24 → Horizontal Navigation Bar with Hover Effects
+## 📚 Contents
 
-[JQUERY]
-  Q3  → jQuery Hide Single Paragraph
-  Q5  → jQuery Hide All Paragraphs
-  Q14 → jQuery Hide Multiple Elements
-  Q18 → jQuery Fade In/Out Effects
+### 🟨 JavaScript & DOM
 
-[DATA FORMATS]
-  Q25 → XML Parsing with JavaScript DOMParser
-Much More...
+| Q No | Topic                                          |
+| ---- | ---------------------------------------------- |
+| Q1   | DOM Paragraph Manipulation (text, color, font) |
+| Q2   | Factorial Calculator Function                  |
+| Q6   | AJAX Load Data (XMLHttpRequest)                |
+| Q7   | Add Paragraph using DOM                        |
+| Q15  | Background Color Change on Button Click        |
+| Q17  | AJAX Content Update Without Refresh            |
+| Q19  | Advanced DOM Operations                        |
+| Q27  | Advanced JavaScript (Arrays, Strings, Objects) |
 
-📝 NOTES:
+---
 
-• All files use standard HTML5 format
-• jQuery examples use CDN links (requires internet)
-• AJAX examples use public APIs (JSONPlaceholder)
-• HTML5 Audio/Video use sample URLs (from w3schools.com)
-• Forms are static HTML (no backend processing)
-• CSS is embedded in HTML files
-• No external dependencies except where noted
+### 🟧 HTML & Forms
 
-═══════════════════════════════════════════════════════════════════
+| Q No | Topic                                   |
+| ---- | --------------------------------------- |
+| Q4   | Profile Page (image, link, hobbies)     |
+| Q12  | Weekly Time Table                       |
+| Q16  | Feedback Form                           |
+| Q20  | College Events Page                     |
+| Q21  | Student Registration Form               |
+| Q22  | HTML5 Audio Player                      |
+| Q23  | List Types (Ordered, Unordered, Nested) |
+| Q26  | HTML5 Video Player                      |
 
-Created: April 19, 2026
-Package Version: 1.0 (Complete)
+---
+
+### 🟦 CSS & Styling
+
+| Q No | Topic                                     |
+| ---- | ----------------------------------------- |
+| Q8   | CSS Inheritance & Cascading               |
+| Q9   | CSS Properties (border, background, text) |
+| Q10  | Navigation Bar with Hover Effects         |
+| Q11  | Border Styles with Shadow                 |
+| Q13  | CSS Text Transform                        |
+| Q24  | Horizontal Navigation Bar                 |
+
+---
+
+### 🟩 jQuery
+
+| Q No | Topic                      |
+| ---- | -------------------------- |
+| Q3   | Hide Single Paragraph      |
+| Q5   | Hide All Paragraphs        |
+| Q14  | Hide Multiple Elements     |
+| Q18  | Fade In / Fade Out Effects |
+
+---
+
+### 🟪 Data Formats
+
+| Q No | Topic                       |
+| ---- | --------------------------- |
+| Q25  | XML Parsing using DOMParser |
+
+Much More....
+---
+
+## ⚙️ Features
+
+* ✅ Simple and beginner-friendly code
+* ✅ Covers core web development concepts
+* ✅ Well-structured question-wise programs
+* ✅ Ready-to-run HTML files
+* ✅ Useful for practical exams and viva
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6 basics)
+* jQuery (via CDN)
+* AJAX (XMLHttpRequest)
+* XML (DOM Parsing)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AsaadSiddiqui-Comps/web-tech-mdm-codes.git
+   ```
+
+2. Open any `.html` file in your browser:
+
+   ```bash
+   double click OR right-click → Open with browser
+   ```
+
+---
+
+## 🌐 Notes
+
+* jQuery examples use CDN → Requires internet connection
+* AJAX examples use public APIs (JSONPlaceholder)
+* Audio/Video examples use sample URLs (W3Schools)
+* Forms are static (no backend integration)
+* CSS is embedded inside HTML files
+
+---
+
+## 📁 Project Structure
+
+```
+web-tech-mdm-codes/
+│
+├── Q1_DOM_Manipulation.html
+├── Q2_Factorial.html
+├── Q3_jQuery_Hide.html
+├── ...
+├── Q31_...
+│
+└── README.md
+```
+
+---
+
+## 📅 Version Info
+
+* **Created:** April 19, 2026
+* **Version:** 1.0 (Complete Package)
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork and improve:
+
+* Add better UI
+* Convert to modern JS (Fetch API)
+* Add Much more codes if you can
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for educational purposes.
+
+---
