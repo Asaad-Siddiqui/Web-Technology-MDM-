@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced JavaScript Operations</title>
+</head>
+<body>
+
+<h2>Advanced JavaScript Operations</h2>
+
+<h3>Array Operations</h3>
+<button onclick="arrayOperations()">Test Array Operations</button>
+<div id="arrayOutput"></div>
+
+<h3>String Operations</h3>
+<button onclick="stringOperations()">Test String Operations</button>
+<div id="stringOutput"></div>
+
+<h3>Object Operations</h3>
+<button onclick="objectOperations()">Test Object Operations</button>
+<div id="objectOutput"></div>
+
+<script>
+function arrayOperations() {
+    let arr = [1, 2, 3, 4, 5];
+    
+    let result = "<h4>Array Operations:</h4>";
+    result += "<p>Original: " + arr + "</p>";
+    result += "<p>Map (×2): " + arr.map(x => x * 2) + "</p>";
+    result += "<p>Filter (>2): " + arr.filter(x => x > 2) + "</p>";
+    result += "<p>Sum: " + arr.reduce((a, b) => a + b, 0) + "</p>";
+    result += "<p>Reverse: " + arr.reverse() + "</p>";
+    
+    document.getElementById("arrayOutput").innerHTML = result;
+}
+
+function stringOperations() {
+    let str = "Hello World JavaScript";
+    
+    let result = "<h4>String Operations:</h4>";
+    result += "<p>Original: " + str + "</p>";
+    result += "<p>Uppercase: " + str.toUpperCase() + "</p>";
+    result += "<p>Lowercase: " + str.toLowerCase() + "</p>";
+    result += "<p>Length: " + str.length + "</p>";
+    result += "<p>Substring(0,5): " + str.substring(0, 5) + "</p>";
+    result += "<p>Replace: " + str.replace("World", "Universe") + "</p>";
+    result += "<p>Split: " + str.split(" ").join(" | ") + "</p>";
+    
+    document.getElementById("stringOutput").innerHTML = result;
+}
+
+function objectOperations() {
+    let student = {
+        name: "John",
+        email: "john@example.com",
+        course: "B.Tech",
+        gpa: 3.8
+    };
+    
+    let result = "<h4>Object Operations:</h4>";
+    result += "<p>Name: " + student.name + "</p>";
+    result += "<p>Email: " + student.email + "</p>";
+    result += "<p>Course: " + student.course + "</p>";
+    result += "<p>GPA: " + student.gpa + "</p>";
+    result += "<p>Keys: " + Object.keys(student).join(", ") + "</p>";
+    result += "<p>Values: " + Object.values(student).join(", ") + "</p>";
+    
+    document.getElementById("objectOutput").innerHTML = result;
+}
+</script>
+
+</body>
+</html>

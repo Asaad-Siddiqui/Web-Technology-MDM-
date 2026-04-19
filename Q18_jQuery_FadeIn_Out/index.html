@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Fade Effects</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h2>Fade In and Fade Out Effects</h2>
+
+<div id="box" style="width: 200px; height: 100px; background-color: blue;"></div>
+
+<br><br>
+
+<button id="fadeInBtn">Fade In</button>
+<button id="fadeOutBtn">Fade Out</button>
+
+<script>
+$(document).ready(function(){
+    $("#box").hide();
+    
+    $("#fadeInBtn").click(function(){
+        $("#box").fadeIn(1000);
+    });
+    
+    $("#fadeOutBtn").click(function(){
+        $("#box").fadeOut(1000);
+    });
+});
+</script>
+
+</body>
+</html>

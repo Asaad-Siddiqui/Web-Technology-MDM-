@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hide Paragraphs</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+
+<button id="btn">Hide</button>
+
+<script>
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("p").hide();
+    });
+});
+</script>
+
+</body>
+</html>

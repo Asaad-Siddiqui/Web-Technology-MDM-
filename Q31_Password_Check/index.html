@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Check</title>
+</head>
+
+<body>Password:<br><input type="password" id="pass"><br><br>Confirm Password:<br><input type="password"
+        id="cpass"><br><br><button onclick="checkPassword()">Check</button>
+    <p id="result"></p>
+    <script>function checkPassword() { let p1 = document.getElementById("pass").value; let p2 = document.getElementById("cpass").value; if (p1 === p2) { document.getElementById("result").innerHTML = "Passwords match"; } else { document.getElementById("result").innerHTML = "Passwords do not match"; } }</script>
+</body>
+
+</html>
